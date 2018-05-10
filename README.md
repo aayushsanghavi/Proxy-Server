@@ -2,7 +2,7 @@
 - Run them multiple times to simulate many servers and clients.
 - Check the scripts to see how to run them.
 
-#Features -
+## Features -
 - Threaded Proxy server
 - The proxy keeps a count of the requests that are made. If a URL is requested more than 3 times in 5 minutes, the response from the server is cached. In case of any further requests for the same, the proxy utilises the “If Modified Since” header to check if any updates have been made, and if not, then it serves the response from
 the cache. The cache has a memory limit of 3 responses.
